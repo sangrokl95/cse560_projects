@@ -1,0 +1,149 @@
+<!-- answer for 1.6 -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblio[
+<!ELEMENT biblio (book*)>
+<!ELEMENT book (title, category, rating, price, author)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT author (name+)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST book year CDATA #REQUIRED>
+]>
+
+<biblio>
+  <book year="2019">
+    <title>Database systems</title>
+    <category>DB</category>
+    <rating>5</rating>
+    <price>1000</price>
+    <author>
+      <name>Smith</name>
+      <name>Jones</name>
+      <name>James</name>
+    </author>
+  </book>
+  <book year="2018">
+    <title>Big data analytics</title>
+    <category>DB</category>
+    <rating>3.5</rating>
+    <price>400</price>
+    <author>
+      <name>Smith</name>
+      <name>Jeff</name>
+    </author>
+  </book>
+  <book year="2017">
+    <title>Introduction to Python</title>
+    <category>PL</category>
+    <rating>4.7</rating>
+    <price>300</price>
+    <author>
+      <name>Smith</name>
+    </author>
+  </book>
+  <book year="2016">
+    <title>Introduction to R programming</title>
+    <category>PL</category>
+    <rating>3.2</rating>
+    <price>200</price>
+    <author>
+      <name>Smith</name>
+      <name>Jeff</name>
+    </author>
+  </book>
+  <book year="2015">
+    <title>Applied Mathematics</title>
+    <category>Science</category>
+    <rating>2.1</rating>
+    <price>100</price>
+    <author>
+      <name>Smith</name>
+    </author>
+  </book>
+  <book year="2017">
+    <title>The Theory of Relational Databases</title>
+    <category>DB</category>
+    <rating>3.8</rating>
+    <price>650</price>
+    <author>
+      <name>Jones</name>
+      <name>Jeff</name>
+    </author>
+  </book>
+  <book year="2018">
+    <title>Pattern Recognition</title>
+    <category>Others</category>
+    <rating>5</rating>
+    <price>1000</price>
+    <author>
+      <name>James</name>
+      <name>Jeff</name>
+    </author>
+  </book>
+  <book year="2018">
+    <title>Linear Algebra</title>
+    <category>Science</category>
+    <rating>4.2</rating>
+    <price>800</price>
+    <author>
+      <name>James</name>
+    </author>
+  </book>
+  <book year="2016">
+    <title>Applied Functional Analysis</title>
+    <category>Others</category>
+    <rating>2</rating>
+    <price>400</price>
+    <author>
+      <name>James</name>
+    </author>
+  </book>
+  <book year="2013">
+    <title>Statistical Inference</title>
+    <category>Science</category>
+    <rating>5</rating>
+    <price>600</price>
+    <author>
+      <name>Jeff</name>
+    </author>
+  </book>
+  <book year="2019">
+    <title>Python Crash Course</title>
+    <category>PL</category>
+    <rating>4.7</rating>
+    <price>600</price>
+    <author>
+      <name>Eric</name>
+    </author>
+  </book>
+  <book year="2017">
+    <title>C++: Programming Basics</title>
+    <category>PL</category>
+    <rating>3.6</rating>
+    <price>400</price>
+    <author>
+      <name>Nathan</name>
+    </author>
+  </book>
+  <book year="2019">
+    <title>Hands-On Machine Learning</title>
+    <category>Others</category>
+    <rating>4.7</rating>
+    <price>750</price>
+    <author>
+      <name>Alice</name>
+    </author>
+  </book>
+  <book year="2018">
+    <title>AWS: Security Best Practices on AWS</title>
+    <category>Others</category>
+    <rating>2.7</rating>
+    <price>500</price>
+    <author>
+      <name>Albert</name>
+    </author>
+  </book>
+</biblio>
